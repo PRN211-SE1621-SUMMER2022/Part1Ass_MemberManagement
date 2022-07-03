@@ -191,6 +191,7 @@
             this.Controls.Add(this.lbMemberName);
             this.Controls.Add(this.lbMemberID);
             this.Name = "frmMemberDetail";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMemberDetail";
             this.Load += new System.EventHandler(this.frmMemberDetail_Load);
             this.ResumeLayout(false);
